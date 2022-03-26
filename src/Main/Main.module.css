@@ -1,0 +1,17 @@
+.mainBlock {
+    height: 100vh;
+    background-color: lightpink;
+    padding: 6em 0 6em 0;
+}
+
+.text {
+    height: auto;
+    width: 300px;
+    background-color: gainsboro;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: cadetblue;
+}

@@ -1,0 +1,25 @@
+
+.worksBlock {
+    height: 100vh;
+    background-color: lightgray;
+    padding: 6em 0 6em 0;
+}
+
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.works {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.title {
+
+}
+

@@ -1,0 +1,46 @@
+
+.work {
+    width: 450px;
+    background-color: beige;
+}
+
+.workImage {
+    border: solid red 1px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.workImg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.button {
+    position: absolute;
+}
+
+
+.workDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+    border: solid green 1px;
+
+    flex-wrap:wrap;
+    align-items: flex-start;
+    align-content: space-around;
+
+}
+
+.descriptionTitle {
+    border: solid green 1px;
+}
+
+.description {
+    border: solid green 1px;
+}

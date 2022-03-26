@@ -7,7 +7,6 @@ import Works from "./works/Works";
 import MySuggestion from "./MySuggestion/MySuggestion";
 import Contacts from "./Contacts/Contacts"
 import Footer from "./Footer/Footer";
-import Contacts1 from "./Contacts/Contacts1";
 
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <Works />
         <MySuggestion />
         <Contacts />
-        {/*<Contacts1/>*/}
         <Footer />
     </div>
   );

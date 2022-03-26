@@ -5,12 +5,10 @@
 }
 
 .workImage {
-    border: solid red 1px;
     display: flex;
     height: 300px;
     width: 100%;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
 }
 .workImg {

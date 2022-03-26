@@ -1,7 +1,6 @@
 .mySuggestionBlock {
-    height: 30vh;
+    min-height: 30vh;
     background-color: beige;
-    padding: 6em 0 6em 0;
 }
 
 .mySuggestionContainer {

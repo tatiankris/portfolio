@@ -1,7 +1,7 @@
 .skillsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: lightblue;
-    padding: 6em 0 6em 0;
+    box-sizing: border-box;
 }
 
 .skillsContainer {
@@ -19,6 +19,6 @@
 }
 
 .title {
-    background-color: lightblue;
+    background-color: mistyrose;
 }
 

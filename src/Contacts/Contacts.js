@@ -11,11 +11,11 @@ let Contacts = () => {
             <div className={`${container.container} ${styles.contactsContainer}`}>
                 <h2>Contacts</h2>
 
-               <div className={styles.form}>
+               <form className={styles.form}>
                    <p>Name</p><input className={styles.input} type={'text'} name={'Name'}/>
                    <p>Email</p><input className={styles.input} type={'text'} name={'Email'}/>
                    <p>Details</p><textarea className={styles.textarea} name={'Details'}></textarea>
-               </div>
+               </form>
 
 
                 <button className={button.button}>Send</button>

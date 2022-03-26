@@ -6,7 +6,7 @@ const Work = (props) => {
     return <div className={styles.work}>
         <div className={styles.workImage}>
             <img className={styles.workImg} src={props.img}/>
-            <button className={`${styles.button} ${button.button}`}>Look</button>
+            <a className={`${styles.button} ${button.button}`}>Look</a>
         </div>
         <div className={styles.workDescription}>
             <div className={styles.descriptionTitle}>

@@ -10,7 +10,8 @@ function Skills () {
             <div className={styles.skills}>
                 <Skill title={"JS"} description={"htllo lflflf lfflflf llflfflfl"}/>
                 <Skill title={"CSS"} description={"htllo lflflf lfflflf llflfflfl"}/>
-                <Skill title={"React"} description={"htllo lflflf lfflflf llflfflfl jdjdjjjdjdjd jdjdjdjdjdj djdjdjdjdjjdd jdjdjdjjd "}/>
+                <Skill title={"React"} description={"htllo lflflf lfflflf llflfflfl jdjdjjjdjdjd jdjdjdjdjdj djdjdjdjdjjdd jdjdjdjjd " +
+                "kjhkjhkjhfh hfhgfhgf jhgjhgjhg jhg jhg  fdgfdgfdgfd iuykjh j"}/>
             </div>
         </div>
     </div>

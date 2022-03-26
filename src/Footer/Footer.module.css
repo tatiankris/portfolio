@@ -1,6 +1,6 @@
 
 .footerBlock {
-    height: 30vh;
+    min-height: 30vh;
     background-color: honeydew;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .links {
-    width: 100%;
+    width: 260px;
     height: 50px;
     border: solid 1px;
 

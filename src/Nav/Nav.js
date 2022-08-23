@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "./Nav.module.css"
+import styles from "./Nav.module.scss"
 
 function Nav () {
     return (
         <div className={styles.nav}>
-            <a href={""}>Главная</a>
-            <a href={""}>Скилы</a>
-            <a href={""}>Проекты</a>
-            <a href={""}>Контакты</a>
+            <a className={styles.link} href={"#"}>Main</a>
+            <a className={styles.link} href={"#"}>Skills</a>
+            <a className={styles.link} href={"#"}>Projects</a>
+            <a className={styles.link} href={"#"}>Contacts</a>
     </div>
     )
 }

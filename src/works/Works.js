@@ -1,16 +1,26 @@
 import React from "react";
-import styles from './Works.module.css'
-import commonStyles from '../common/styles/Container.module.css'
+import styles from './Works.module.scss'
+import commonStyles from '../common/styles/Container.module.scss'
 import Work from "./work/Work";
-
+import CommonTitle from "../common/components/title/CommonTitle";
+import TodoImage from '../common/assets/todolist.jpg'
+import SocialImage from '../common/assets/social3.jpg'
 
 const Works = (props) => {
+
+  const todolist = {
+    backgroundImage: `url(${TodoImage})`
+  }
+  const social = {
+    backgroundImage: `url(${SocialImage})`
+  }
+
   return <div className={styles.worksBlock}>
     <div className={`${commonStyles.container} ${styles.worksContainer}`}>
-      <h2 className={styles.title}>My works</h2>
+      <CommonTitle text={'Latest Projects'}/>
       <div className={styles.works}>
-        <Work img={'https://ruseller.com/adds/adds3077/preview.jpg'} title={'Ocean'} description={'This work was make for OceanSolution.'}/>
-        <Work img={'https://miditator.ru/upload/iblock/261/temnyy_strogiy_shablon_sayta.png'} title={'Praries'} description={'This work was make for East States.'}/>
+        <Work style={todolist} title={'Todolist'} description={'REACT REDUX JS HTML CSS'}/>
+        <Work style={social} title={'Social Network'} description={'REACT REDUX JS HTML CSS'}/>
       </div>
     </div>
   </div>

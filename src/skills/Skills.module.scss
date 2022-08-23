@@ -1,0 +1,42 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.skillsBlock {
+    min-height: 100vh;
+    background-color: $secondColor;
+    box-sizing: border-box;
+    .skillsContainer {
+        /*align-items: flex-start;*/
+        justify-content: flex-start;
+        flex-direction: column;
+        .description {
+        margin-top: 10px;
+        margin-bottom: 80px;
+        line-height: 30px;
+        letter-spacing: 0;
+        word-wrap: break-word;
+
+        @include text($secondFont, 17px, 400, #86756c);
+
+        //font-family: $secondFont;
+        //font-size: 17px;
+        //font-weight: 400;
+        //color: #86756c;
+
+       }
+        .skills {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        }
+    }
+}
+
+.title {
+    background-color: mistyrose;
+}
+
+
+

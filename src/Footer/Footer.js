@@ -1,20 +1,37 @@
 import React from "react";
-import styles from './Footer.module.css'
-import container from '../common/styles/Container.module.css'
+import styles from './Footer.module.scss'
+import container from '../common/styles/Container.module.scss'
 import Link from './Link/Link'
+import instImg from "../common/assets/footer/instagram-logo-svgrepo-com.svg";
+import vkImg from "../common/assets/footer/vk-logo-svgrepo-com.svg";
+import tgImg from "../common/assets/footer/telegram-logo-svgrepo-com.svg";
+import ghImg from "../common/assets/footer/logo-github-svgrepo-com.svg";
 
 const Footer = (props) => {
+
+    const instagram = {
+        backgroundImage: `url(${instImg})`
+    }
+    const vk = {
+        backgroundImage: `url(${vkImg})`
+    }
+    const telegram = {
+        backgroundImage: `url(${tgImg})`
+    }
+    const github = {
+        backgroundImage: `url(${ghImg})`
+    }
 
     return <div className={styles.footerBlock}>
         <div className={`${container.container} ${styles.footerContainer}`}>
             <h2>Tatiana Kriskevich</h2>
             <div className={styles.links}>
-                <Link href={'https://www.instagram.com'} img={'https://pngicon.ru/file/uploads/instagram-256x256.png'}/>
-                <Link href={'https://vk.com'} img={'https://pngicon.ru/file/uploads/vk-256x256.png'}/>
-                <Link href={'https://web.telegram.org/z/'} img={'https://papik.pro/uploads/posts/2021-11/thumbs/1636144586_45-papik-pro-p-logotip-telegramma-foto-46.png'}/>
-                <Link href={'https://github.com/tatiankris'} img={'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'}/>
+                <Link href={'https://www.instagram.com'} style={instagram}/>
+                <Link href={'https://vk.com'} style={vk}/>
+                <Link href={'https://web.telegram.org/z/'} style={telegram}/>
+                <Link href={'https://github.com/tatiankris'} style={github}/>
             </div>
-            <h2>Ⓒ 2022 All rights reserved</h2>
+            <h3>Ⓒ 2022 All rights reserved</h3>
         </div>
     </div>
 

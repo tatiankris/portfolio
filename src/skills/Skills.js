@@ -1,17 +1,40 @@
 import React from "react";
-import styles from "./Skills.module.css"
-import styleContainer from "../../src/common/styles/Container.module.css"
+import styles from "./Skills.module.scss"
+import styleContainer from "../common/styles/Container.module.scss"
 import Skill from "./Skill/Skill";
+import CommonTitle from "../common/components/title/CommonTitle";
+import jsImg from "../common/assets/js-svgrepo-com.svg";
+import reactImg from "../common/assets/react-svgrepo-com.svg";
+import reduxImg from "../common/assets/redux-svgrepo-com.svg";
+import cssImg from "../common/assets/sass-svgrepo-com.svg";
+
 
 function Skills () {
+
+    const js = {
+        backgroundImage: `url(${jsImg})`
+    }
+    const react = {
+        backgroundImage: `url(${reactImg})`
+    }
+    const redux = {
+        backgroundImage: `url(${reduxImg})`
+    }
+    const css = {
+        backgroundImage: `url(${cssImg})`
+    }
+
     return <div className={styles.skillsBlock}>
         <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
-            <h2 className={styles.title}>Skills</h2>
+            <CommonTitle text={'Skills'}/>
+            <div className={styles.description}>
+                I use the most trusted web application development tools such as...
+            </div>
             <div className={styles.skills}>
-                <Skill title={"JS"} description={"htllo lflflf lfflflf llflfflfl"}/>
-                <Skill title={"CSS"} description={"htllo lflflf lfflflf llflfflfl"}/>
-                <Skill title={"React"} description={"htllo lflflf lfflflf llflfflfl jdjdjjjdjdjd jdjdjdjdjdj djdjdjdjdjjdd jdjdjdjjd " +
-                "kjhkjhkjhfh hfhgfhgf jhgjhgjhg jhg jhg  fdgfdgfdgfd iuykjh j"}/>
+                    <Skill style={js} title={"JS"} description={""}/> {/*I know main principles of JS*/}
+                <Skill style={react} title={"React"} description={""}/> {/*I make React App*/}
+                <Skill style={redux} title={"Redux"} description={""}/> {/*I use this library the most*/}
+                <Skill style={css} title={"CSS"} description={""}/> {/*I use SASS*/}
             </div>
         </div>
     </div>

@@ -1,0 +1,17 @@
+@import "../common/styles/sass/variables";
+
+.mySuggestionBlock {
+    min-height: 30vh;
+    background-color: $firstColor;
+    .mySuggestionContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+
+    }
+    .button {
+        text-decoration: none;
+        margin-bottom: 30px;
+    }
+}
+

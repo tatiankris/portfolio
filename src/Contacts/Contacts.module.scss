@@ -1,0 +1,51 @@
+@import "../common/styles/sass/variables";
+
+.contactsBlock {
+    min-height: 100vh;
+    background-color: $bgColor;
+    .contactsContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .form {
+        width: 275px;
+        min-height: 400px;
+        //border: solid 1px;
+        border-radius: 15px;
+        background-color: $secondColor;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        p {
+            font-family: $firstFont;
+            font-weight: 700;
+            color: $firstColor;
+            text-transform: uppercase;
+            margin-left: 7px;
+        }
+        .input {
+            min-height: 50px;
+            border-radius: 15px;
+            border:  solid $firstColor 1px;
+        }
+
+        .textarea {
+            min-height: 180px;
+            border-radius: 15px;
+            border:  solid $firstColor 1px;
+        }
+
+        .button {
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+    }
+}
+
+
+
+
+
+
+

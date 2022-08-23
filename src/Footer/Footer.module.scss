@@ -1,7 +1,7 @@
+@import "../common/styles/sass/variables";
 
 .footerBlock {
-    min-height: 30vh;
-    background-color: honeydew;
+    background-color: $firstColor;
 }
 
 .footerContainer {
@@ -9,11 +9,17 @@
     justify-content: space-between;
     text-align: center;
 }
+.footerContainer h3 {
+    margin: 10px;
+}
+.footerContainer h2 {
+    margin: 10px;
+}
 
 .links {
     width: 260px;
-    height: 50px;
-    border: solid 1px;
+    height: 40px;
+    //border: solid 1px;
 
     display: flex;
     flex-direction: row;

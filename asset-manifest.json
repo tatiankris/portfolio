@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cdd5e65b.css",
-    "main.js": "/portfolio/static/js/main.91bf1a7d.js",
+    "main.css": "/portfolio/static/css/main.8bca978d.css",
+    "main.js": "/portfolio/static/js/main.a14b50a8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/my_photo.jpg": "/portfolio/static/media/my_photo.7d07bd4edd49eab44cea.jpg",
+    "static/media/social3.jpg": "/portfolio/static/media/social3.edfc7e0b743c5c7f8997.jpg",
+    "static/media/todolist.jpg": "/portfolio/static/media/todolist.36a762548bfffaad9ca7.jpg",
+    "static/media/sass-svgrepo-com.svg": "/portfolio/static/media/sass-svgrepo-com.934491081cb137db8f05d326e79b4adf.svg",
+    "static/media/react-svgrepo-com.svg": "/portfolio/static/media/react-svgrepo-com.6dc4afc7ebb14f4e1c6ef4f834856fda.svg",
+    "static/media/vk-logo-svgrepo-com.svg": "/portfolio/static/media/vk-logo-svgrepo-com.5199b04b5fdd5e69055db9b89274ce0c.svg",
+    "static/media/instagram-logo-svgrepo-com.svg": "/portfolio/static/media/instagram-logo-svgrepo-com.7fc9f5808e01ba79a676eb8f3db2960c.svg",
+    "static/media/telegram-logo-svgrepo-com.svg": "/portfolio/static/media/telegram-logo-svgrepo-com.be207402591fb103371315a83dc22e4e.svg",
+    "static/media/redux-svgrepo-com.svg": "/portfolio/static/media/redux-svgrepo-com.5eb60fb9445017057f5f8501e3b74773.svg",
     "index.html": "/portfolio/index.html",
-    "main.cdd5e65b.css.map": "/portfolio/static/css/main.cdd5e65b.css.map",
-    "main.91bf1a7d.js.map": "/portfolio/static/js/main.91bf1a7d.js.map",
+    "static/media/logo-github-svgrepo-com.svg": "/portfolio/static/media/logo-github-svgrepo-com.e45fe30715a3c5d6b94c0e38efa5918e.svg",
+    "static/media/js-svgrepo-com.svg": "/portfolio/static/media/js-svgrepo-com.fc693044c32a047dde16bf63a257c1b5.svg",
+    "main.8bca978d.css.map": "/portfolio/static/css/main.8bca978d.css.map",
+    "main.a14b50a8.js.map": "/portfolio/static/js/main.a14b50a8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdd5e65b.css",
-    "static/js/main.91bf1a7d.js"
+    "static/css/main.8bca978d.css",
+    "static/js/main.a14b50a8.js"
   ]
 }

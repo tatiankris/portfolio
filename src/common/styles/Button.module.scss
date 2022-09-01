@@ -9,11 +9,11 @@
     color: black;
     padding: 10px 10px;
     font-weight: 700;
-  :hover {
+  &:hover {
     background-color: black;
     color: white;
   }
-  :active {
+  &:active {
     background-color: black;
     color: white;
     transform: translateY(2px);

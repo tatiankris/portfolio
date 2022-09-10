@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 let Contacts = () => {
 
     return (
-        <div className={styles.contactsBlock}>
+        <div id={'contacts'} className={styles.contactsBlock}>
             <Fade top>
             <div className={`${container.container} ${styles.contactsContainer}`}>
                 {/*<h2>Contacts</h2>*/}

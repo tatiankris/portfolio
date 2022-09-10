@@ -26,7 +26,7 @@ function Main () {
                             />
                         </div>
                     </div>
-                   <Tilt options={{ max : 50 }}>
+                   <Tilt options={{ max : 20 }}>
                        <div className={styles.photo} style={photo}></div>
                    </Tilt>
                </div>

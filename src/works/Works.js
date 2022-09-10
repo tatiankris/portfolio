@@ -16,7 +16,7 @@ const Works = (props) => {
     backgroundImage: `url(${SocialImage})`
   }
 
-  return <div className={styles.worksBlock}>
+  return <div id={'works'} className={styles.worksBlock}>
     <Fade top>
     <div className={`${commonStyles.container} ${styles.worksContainer}`}>
       <CommonTitle text={'Latest Projects'}/>

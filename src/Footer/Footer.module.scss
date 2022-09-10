@@ -2,27 +2,35 @@
 
 .footerBlock {
     background-color: $firstColor;
-}
+    .footerContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        h3 {
+            margin: 10px;
+        }
+        h2 {
+            margin: 10px;
+        }
+        .links {
+            width: 260px;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
 
-.footerContainer {
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-}
-.footerContainer h3 {
-    margin: 10px;
-}
-.footerContainer h2 {
-    margin: 10px;
-}
+            .link {
+                position: relative;
+                height: 40px;
+                width: 40px;
+                &:hover {
+                    border: 2px solid wheat;
+                    border-radius: 12px;
+                }
+                }
+            }
+        }
+    }
 
-.links {
-    width: 260px;
-    height: 40px;
-    //border: solid 1px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 
-}

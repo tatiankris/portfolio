@@ -25,7 +25,7 @@ function Skills () {
         backgroundImage: `url(${cssImg})`
     }
 
-    return <div className={styles.skillsBlock}>
+    return <div id={'skills'} className={styles.skillsBlock}>
         <Fade top>
         <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
             <CommonTitle text={'Skills'}/>

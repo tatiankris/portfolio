@@ -26,10 +26,18 @@ const Footer = (props) => {
         <div className={`${container.container} ${styles.footerContainer}`}>
             <h2>Tatiana Kriskevich</h2>
             <div className={styles.links}>
-                <Link href={'https://www.instagram.com'} style={instagram}/>
-                <Link href={'https://vk.com'} style={vk}/>
-                <Link href={'https://web.telegram.org/z/'} style={telegram}/>
-                <Link href={'https://github.com/tatiankris'} style={github}/>
+                <div className={styles.link}>
+                    <Link href={'https://www.instagram.com'} style={instagram}/>
+                </div>
+                <div className={styles.link}>
+                    <Link href={'https://vk.com'} style={vk}/>
+                </div>
+                <div className={styles.link}>
+                    <Link href={'https://web.telegram.org/z/'} style={telegram}/>
+                </div>
+                <div className={styles.link}>
+                    <Link href={'https://github.com/tatiankris'} style={github}/>
+                </div>
             </div>
             <h3>Ⓒ 2022 All rights reserved</h3>
         </div>

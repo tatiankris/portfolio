@@ -8,7 +8,7 @@ import Flip from 'react-reveal/Flip';
 const MySuggestion = (props) => {
 
 
-    return <div className={styles.mySuggestionBlock}>
+    return <div id={'my-suggestion'} className={styles.mySuggestionBlock}>
         <Flip top>
         <div className={`${container.container} ${styles.mySuggestionContainer}`}>
             {/*<h2>Looking into remote work options</h2>*/}

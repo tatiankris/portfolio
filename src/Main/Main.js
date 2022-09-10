@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Main.module.scss"
-import styleContainer from "../common/styles/Container.module.scss"
 import photoImg from "../common/assets/main/my_photo.jpg";
+import Particles from "react-tsparticles";
+import Particle from "../common/components/Particle";
+
 
 function Main () {
 
@@ -10,7 +12,8 @@ function Main () {
     }
 
     return <div className={styles.mainBlock}>
-               <div className={styleContainer.container}>
+                <Particle className={styles.particles}/>
+               <div className={styles.container}>
                     <div className={styles.text}>
                         <h1><span className={styles.span}>I</span> AM TATIANA.</h1>
                         <div className={styles.description}>

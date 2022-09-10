@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Main.module.scss"
 import photoImg from "../common/assets/main/my_photo.jpg";
-import Particles from "react-tsparticles";
 import Particle from "../common/components/Particle";
+import Fade from 'react-reveal/Fade';
 
 
 function Main () {
@@ -12,6 +12,7 @@ function Main () {
     }
 
     return <div className={styles.mainBlock}>
+        <Fade top>
                 <Particle className={styles.particles}/>
                <div className={styles.container}>
                     <div className={styles.text}>
@@ -25,6 +26,7 @@ function Main () {
 
                     </div>
                </div>
+        </Fade>
     </div>
 }
 

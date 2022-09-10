@@ -7,6 +7,7 @@ import jsImg from "../common/assets/js-svgrepo-com.svg";
 import reactImg from "../common/assets/react-svgrepo-com.svg";
 import reduxImg from "../common/assets/redux-svgrepo-com.svg";
 import cssImg from "../common/assets/sass-svgrepo-com.svg";
+import Fade from "react-reveal/Fade";
 
 
 function Skills () {
@@ -25,6 +26,7 @@ function Skills () {
     }
 
     return <div className={styles.skillsBlock}>
+        <Fade top>
         <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
             <CommonTitle text={'Skills'}/>
             <div className={styles.description}>
@@ -37,6 +39,7 @@ function Skills () {
                 <Skill style={css} title={"CSS"} description={""}/> {/*I use SASS*/}
             </div>
         </div>
+        </Fade>
     </div>
 }
 

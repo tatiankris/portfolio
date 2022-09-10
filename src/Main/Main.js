@@ -3,6 +3,8 @@ import styles from "./Main.module.scss"
 import photoImg from "../common/assets/main/my_photo.jpg";
 import Particle from "../common/components/Particle";
 import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt'
 
 
 function Main () {
@@ -12,19 +14,21 @@ function Main () {
     }
 
     return <div className={styles.mainBlock}>
-        <Fade top>
+
                 <Particle className={styles.particles}/>
+            <Fade top>
                <div className={styles.container}>
                     <div className={styles.text}>
                         <h1><span className={styles.span}>I</span> AM TATIANA.</h1>
                         <div className={styles.description}>
-                            <span >I am React JS developer</span>
+                            <ReactTypingEffect
+                                text={["Frontend Developer"]}
+                            />
                         </div>
-
                     </div>
-                    <div className={styles.photo} style={photo}>
-
-                    </div>
+                   <Tilt options={{ max : 50 }}>
+                       <div className={styles.photo} style={photo}></div>
+                   </Tilt>
                </div>
         </Fade>
     </div>

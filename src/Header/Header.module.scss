@@ -1,8 +1,38 @@
 .header {
     min-height: 80px;
-    background-color: #ede9e0;
+    background: rgba(237, 233, 224, 0.4);
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    left: 0;
+
+    transform: translate(0, -70px);
+    transition: 0.7s;
+
+    &::before {
+        content: '';
+        background: rgba(171, 84, 41, .8);
+        width: 52px;
+        height: 16px;
+        border-radius: 8px;
+        position: absolute;
+
+        top: 64px ;
+        left: 50%;
+        transform: translate(-50%, 50%);
+
+
+    }
+    &:hover {
+        transform: translate(0, 0px);
+    }
+
     border-bottom: 1px solid #e6dacd;
+        @media screen and (max-width: 950px) {
+            align-items: flex-start;
+            justify-content: center;
+        }
 }

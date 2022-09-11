@@ -13,7 +13,7 @@ function Main () {
         backgroundImage: `url(${photoImg})`
     }
 
-    return <div className={styles.mainBlock}>
+    return <div id={'main'} className={styles.mainBlock}>
 
                 <Particle className={styles.particles}/>
             <Fade top>

@@ -6,3 +6,13 @@
   font-weight: $fontWeight;
   color: $color;
 }
+
+@mixin container () {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    margin: 0px auto 0px auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

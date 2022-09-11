@@ -1,9 +1,11 @@
 @import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
 
 .mainBlock {
     min-height: 100vh;
     background-color: $bgColor;
     position: relative;
+    //padding-top: 80px;
 
     .particles {
         width: 100%;
@@ -17,15 +19,7 @@
         rigth: 0;
     }
     .container {
-        z-index: 1;
-        position: absolute;
-        height: 100%;
-        width: 80%;
-        display: flex;
-        margin: 0px auto 0px auto;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        @include container();
         .text {
             width: 300px;
             font-weight: 700;
@@ -35,7 +29,7 @@
             font-size: 32px;
             h1 {
                 margin-bottom: 0px;
-                margin-top: 100px;
+                margin-top: 50px;
             }
             .span {
                 color: #ab5429;

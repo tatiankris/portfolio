@@ -6,7 +6,8 @@ import * as Scroll from 'react-scroll';
 function Nav() {
     return (
         <div className={styles.nav}>
-            <Link className={styles.link} to={"#"}>Main</Link>
+            <Link className={styles.link} to={"main"} spy={true} smooth={true} offset={50}
+                  duration={500}>Main</Link>
             <Link className={styles.link} to={"skills"} spy={true} smooth={true} offset={50}
                   duration={500}>Skills</Link>
             <Link className={styles.link} to={"works"} spy={true} smooth={true} offset={50}

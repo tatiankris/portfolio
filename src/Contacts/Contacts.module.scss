@@ -63,6 +63,50 @@
         .button {
             margin-top: 6px;
             margin-bottom: 6px;
+            z-index: 6;
+            background-color: white;
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+            &:active {
+                  color: $firstColor;;
+                  border: 1px solid black;
+                  background: #ede8df;
+                  //transform: translateY(2px);
+              }
+            &::after {
+                content: none;
+            }
+            &:hover::after {
+                content: none;
+            }
+            &:active::after {
+                content: none;
+            }
+        }
+        .buttonDisabled {
+            margin-top: 6px;
+            margin-bottom: 6px;
+            z-index: 6;
+            background-color: white;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+            &:active {
+                background-color: white;
+                color: black;
+            }
+            &::after {
+                content: none;
+            }
+            &:hover::after {
+                content: none;
+            }
+            &:active::after {
+                content: none;
+            }
         }
     }
 }

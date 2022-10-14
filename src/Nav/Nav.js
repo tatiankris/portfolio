@@ -4,6 +4,8 @@ import {Link} from 'react-scroll';
 import * as Scroll from 'react-scroll';
 
 function Nav() {
+
+
     return (
         <div className={styles.nav}>
             <Link className={styles.link} to={"main"} spy={true} smooth={true} offset={50}

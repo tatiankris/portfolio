@@ -10,16 +10,24 @@ let Contacts = () => {
     let [name, setName] = useState('')
     let [email, setEmail] = useState('')
     let [details, setDetails] = useState('')
+    let [disabled, setDisabled] = useState(false)
+
+    const stylesDisabled = {}
 
     const handleSubmit = (e) => {
+            setDisabled(true);
             e.preventDefault();
-        // alert('Ща отправится мб')
+
             axios.post('https://smtp-nodejs-gmail.herokuapp.com/sendMessage', {
                     name: name,
                     email: email,
                     message: details
             }).then(() => {
-                alert('Your message was send!')
+                setDisabled(false);
+                alert('Message sent!')
+                setName('')
+                setEmail('')
+                setDetails('')
             })
    }
 
@@ -34,7 +42,7 @@ let Contacts = () => {
                    <p>Name</p><input className={styles.input} value={name} onChange={e => setName(e.currentTarget.value)} type={'text'} name={'Name'}/>
                    <p>Email</p><input className={styles.input} value={email} onChange={e => setEmail(e.currentTarget.value)} type={'text'} name={'Email'}/>
                    <p>Details</p><textarea className={styles.textarea} value={details} onChange={e => setDetails(e.currentTarget.value)} name={'Details'}></textarea>
-                   <button type={'submit'} className={`${button.button} ${styles.button}`}>Send</button>
+                   <button disabled={disabled} type={'submit'} className={disabled ? `${button.button} ${styles.buttonDisabled}` : `${button.button} ${styles.button}`}>Send</button>
                </form>
             </div>
             </Fade>

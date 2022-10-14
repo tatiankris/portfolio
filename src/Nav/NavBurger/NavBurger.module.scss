@@ -11,14 +11,14 @@
     .navBurgerItems{
 
         position: absolute;
-        background: rgba(134, 117, 108, .4);
+        background: rgba(134, 117, 108, 1);
         min-width: 160px;
         scroll-behavior: smooth;
 
         //top: 80px;
         //right: -430px;
         right: 0;
-        z-index: -1;
+        z-index: 1;
         left: 0;
 
         display: none;

@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a71d9f3a.css",
-    "main.js": "/portfolio/static/js/main.6a310b2a.js",
+    "main.css": "/portfolio/static/css/main.1d67da03.css",
+    "main.js": "/portfolio/static/js/main.899003cd.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/my_photo.jpg": "/portfolio/static/media/my_photo.7d07bd4edd49eab44cea.jpg",
+    "static/media/learncards22.svg.png": "/portfolio/static/media/learncards22.svg.e309806d092973f7a4e9.png",
     "static/media/social3.jpg": "/portfolio/static/media/social3.edfc7e0b743c5c7f8997.jpg",
     "static/media/todolist.jpg": "/portfolio/static/media/todolist.36a762548bfffaad9ca7.jpg",
     "static/media/sass-svgrepo-com.svg": "/portfolio/static/media/sass-svgrepo-com.934491081cb137db8f05d326e79b4adf.svg",
@@ -15,12 +16,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/logo-github-svgrepo-com.svg": "/portfolio/static/media/logo-github-svgrepo-com.e45fe30715a3c5d6b94c0e38efa5918e.svg",
     "static/media/js-svgrepo-com.svg": "/portfolio/static/media/js-svgrepo-com.fc693044c32a047dde16bf63a257c1b5.svg",
-    "main.a71d9f3a.css.map": "/portfolio/static/css/main.a71d9f3a.css.map",
-    "main.6a310b2a.js.map": "/portfolio/static/js/main.6a310b2a.js.map",
+    "main.1d67da03.css.map": "/portfolio/static/css/main.1d67da03.css.map",
+    "main.899003cd.js.map": "/portfolio/static/js/main.899003cd.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a71d9f3a.css",
-    "static/js/main.6a310b2a.js"
+    "static/css/main.1d67da03.css",
+    "static/js/main.899003cd.js"
   ]
 }
